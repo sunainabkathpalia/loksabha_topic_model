@@ -116,7 +116,8 @@ def create_pyldavis_visualization(dtm, corpus, time_slice):
         doc_topic_dists=doc_topic,
         doc_lengths=doc_lengths,
         vocab=vocab,
-        term_frequency=term_frequency
+        term_frequency=term_frequency,
+        sort_topics=False
     )
     
     # Save visualization to temporary HTML file
@@ -166,7 +167,7 @@ if model_loaded:
             )
         
         with col2:
-            # Download button moved here
+            # Download button 
             download_data = []
             for topic in range(dtm.num_topics):
                 for term in topic_evolution[topic]["terms"]:
