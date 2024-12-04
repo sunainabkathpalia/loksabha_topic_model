@@ -4,3 +4,7 @@ plotly
 gensim
 numpy
 pyLDAvis
+scikit-learn
+networkx
+textwrap3
+nltk
