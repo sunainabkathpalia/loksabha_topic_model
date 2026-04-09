@@ -1,4 +1,4 @@
-# 🏛️ Thematic Analysis of Indian Parliamentary Bills
+# Thematic Analysis of Indian Parliamentary Bills
  
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://loksabhatopicmodel-evkjfx7ez8ljjiyp8vlcry.streamlit.app/)
  
